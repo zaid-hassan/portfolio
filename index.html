@@ -6,8 +6,38 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
-<body>
+<body class="bg-zinc-950">
     <!-- NavBar -->
-    
+    <nav class="relative container mx-auto max-w-screen-xl p-6">
+        <!-- flex container -->
+        <div class="flex items-center justify-center">
+            <!-- Menu items -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="text-zinc-100 hover: hover:text-zinc-500"><span class="text-zinc-500">I.</span>Home</a>
+                <a href="#" class="text-zinc-100 hover: hover:text-zinc-500"><span class="text-zinc-500">II.</span>About</a>
+                <a href="#" class="text-zinc-100 hover: hover:text-zinc-500"><span class="text-zinc-500">III.</span>Contact</a>
+                <a href="#" class="text-zinc-100 hover: hover:text-zinc-500"><span class="text-zinc-500">IV.</span>Projects</a>
+                <a href="#" class="text-zinc-100 hover: hover:text-zinc-500"><span class="text-zinc-500">V.</span>Blog</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero section -->
+    <section id="hero">
+        <!-- flex container -->
+        <div class="h-screen container flex flex-col justify-start items-start px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:justify-center">
+            <!-- greeting - first item-->
+            <div class="py-1.5 md:py-3">
+                <h4 class="max-w-sm text-zinc-300 text-lg font-extralight hover:text-zinc-100 md:text-xl">Hi i am,</h4>
+            </div>
+            <!-- Name - second item-->
+            <div class="py-1.5 md:py-3">
+                <h1 class="max-w-lg text-zinc-400 text-4xl font-bold hover:text-zinc-100 text-left md:text-7xl">Zaid Hassan</h1>
+            </div>
+            <!-- What i do? - third item -->
+            <div class="py-1.5 md:py-3">
+                <h1 class="max-w-3xl text-zinc-500 text-2xl font-bold hover:text-zinc-100 text-left md:text-5xl">I am a computer geek, I like building stuff on my computer.</h1>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
