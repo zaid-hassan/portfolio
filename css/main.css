@@ -975,6 +975,25 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Scroll behaviour */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 5rem);
+}
+
+/* for scroll navigation */
+
+.scroll-down nav {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up nav {
+  filter: drop-shadow(0 -10px 8px);
+}
+
+/* Hamburger Menu */
+
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -1019,15 +1038,6 @@ video {
 
 .open .hamburger-three {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
-}
-
-/* for scroll navigation */
-
-.scroll-down nav {
-  transform: translate3d(0, -100%, 0);
-}
-
-.scroll-up nav {
 }
 
 .hover\:-translate-x-1:hover {
@@ -1179,10 +1189,6 @@ video {
 
   .md\:items-end {
     align-items: flex-end;
-  }
-
-  .md\:justify-start {
-    justify-content: flex-start;
   }
 
   .md\:justify-center {

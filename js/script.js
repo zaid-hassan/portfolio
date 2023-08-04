@@ -1,15 +1,17 @@
 const btn = document.querySelector('#menu-button');
-const nav = document.querySelector('#menu');
-
-btn.addEventListener('click', () => {
-    btn.classList.toggle('open');
-    nav.classList.toggle('flex');
-    nav.classList.toggle('hidden');
-})
-
+const mobileNav = document.querySelector('#mobile-menu');
+const navigation = document.querySelector('#nav');
 const body = document.body;
 let lastScroll = 0;
 
+const navigationHeight = navigation.offsetHeight;
+document.documentElement.style.setProperty(
+    '--scroll-padding',
+    navigationHeight + 'px'
+)
+
+
+// Sticky scroll navigation menu
 window.addEventListener('scroll', () => {
     const currentScroll = window.scrollY;
 
@@ -25,4 +27,11 @@ window.addEventListener('scroll', () => {
         body.classList.add('scroll-up');
     }
     lastScroll = currentScroll;
+})
+
+// Hamburger Menu toggle animation section
+btn.addEventListener('click', () => {
+    btn.classList.toggle('open');
+    mobileNav.classList.toggle('flex');
+    mobileNav.classList.toggle('hidden');
 })

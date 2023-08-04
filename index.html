@@ -10,18 +10,18 @@
 
 <body class="bg-zinc-900">
     <!-- NavBar -->
-    <nav class="fixed top-0 left-0 z-10 backdrop-blur-lg transition ease-in-out duration-300 container mx-auto max-w-screen-xl p-6">
+    <nav id="nav" class="fixed top-0 left-0 z-10 backdrop-blur-lg transition ease-in-out duration-300 container mx-auto max-w-screen-xl p-6">
         <!-- flex container -->
         <div class="flex items-center justify-center">
             <!-- Menu items -->
             <div class="hidden md:flex space-x-6">
                 <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">I.</span>Home</a>
-                <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
+                <a href="#about" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">II.</span>About</a>
-                <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
+                <a href="#project" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">III.</span>Projects</a>
-                <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
+                <a href="#contact" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">IV.</span>Contact</a>
                 <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">V.</span>Blog</a>
@@ -37,15 +37,15 @@
 
         <!-- Mobile Menu -->
         <div class="md:hidden">
-            <div id="menu"
+            <div id="mobile-menu"
                 class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold backdrop-blur-lg sm:w-auto sm:self-center left-6 right-6 drop-shadow-lg">
                 <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">I.</span>Home</a>
-                <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
+                <a href="#about" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">II.</span>About</a>
-                <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
+                <a href="#project" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">III.</span>Projects</a>
-                <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
+                <a href="#contact" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">IV.</span>Contact</a>
                 <a href="#" class="text-zinc-100  transition duration-100 ease-in-out hover: hover:text-zinc-400"><span
                         class="text-zinc-400">V.</span>Blog</a>
@@ -95,11 +95,7 @@
                     About Me
                 </h2>
                 <p class="max-w-lg text-center text-slate-500 md:text-left">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates officiis reprehenderit
-                    molestiae ratione hic. Quos consequuntur inventore molestiae odio molestias natus minima et
-                    necessitatibus, error adipisci accusantium expedita nisi perferendis deleniti iste a officiis
-                    voluptatibus, exercitationem, repudiandae nesciunt facilis tenetur soluta. Sunt reiciendis quasi
-                    voluptas natus eius ducimus repellendus ullam aliquid ipsum? Fuga, magni?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vero recusandae asperiores at minima dolor temporibus beatae quaerat dolorem itaque sapiente in earum incidunt consequatur ad tempore exercitationem natus iste deleniti, architecto tempora molestias distinctio velit. Architecto veritatis quas sequi asperiores molestias est pariatur magnam sed cum illum, eos ipsam perferendis, illo tenetur facere saepe.
                 </p>
                 <p class="max-w-lg text-center text-slate-500 md:text-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minus numquam harum doloremque dicta
@@ -113,7 +109,7 @@
     <section id="project">
         <!-- flex container -->
         <div
-            class="container flex flex-col mx-auto space-y-12 px-11 my-10 justify-center items-center md:space-y-0 md:justify-start md:items-start md:h-screen">
+            class="container flex flex-col mx-auto space-y-12 px-11 my-10 justify-center items-center md:space-y-0  md:items-start md:h-screen">
             <!-- My Projects -->
             <div class="flex flex-col space-y-12">
                 <h2 class="max-w-md text-slate-200 text-3xl font-bold text-center md:text-left md:text-4xl">My Projects
@@ -203,7 +199,7 @@
             </div>
             <!-- Contact links -->
             <div class="flex flex-row space-x-4 mx-auto">
-                <a href="#" id="github" class="hover:-translate-y-1 transform ease-in-out duration-150">
+                <a href="https://github.com/zaid-hassan" id="github" class="hover:-translate-y-1 transform ease-in-out duration-150">
                     <!-- Github -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" style="color: #333"
                         viewBox="0 0 24 24">
@@ -221,7 +217,7 @@
                     </svg>
                 </a>
 
-                <a href="#" id="instagram" class="hover:-translate-y-1 transform ease-in-out duration-150">
+                <a href="https://instagram.com/the_curiousfella" id="instagram" class="hover:-translate-y-1 transform ease-in-out duration-150">
                     <!-- Instagram -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="currentColor" style="color: #c13584"
                         viewBox="0 0 24 24">
@@ -257,7 +253,7 @@
         <div class="container flex flex-col mx-auto my-4">
             <div class="flex flex-col">
                 <p class="text-slate-700 text-sm text-center hover:text-slate-300 md:text-xs">Designed and built by <a
-                        href="#">Zaid Hassan</a></p>
+                        href="https://github.com/zaid-hassan">Zaid Hassan</a></p>
             </div>
         </div>
     </footer>
