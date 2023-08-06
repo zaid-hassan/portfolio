@@ -1,14 +1,8 @@
 const btn = document.querySelector('#menu-button');
 const mobileNav = document.querySelector('#mobile-menu');
 const navigation = document.querySelector('#nav');
-const body = document.body;
 let lastScroll = 0;
 
-const navigationHeight = navigation.offsetHeight;
-document.documentElement.style.setProperty(
-    '--scroll-padding',
-    navigationHeight + 'px'
-)
 
 
 // Sticky scroll navigation menu
