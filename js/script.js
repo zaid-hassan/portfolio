@@ -5,7 +5,6 @@ const body = document.body;
 let lastScroll = 0;
 
 
-
 // Sticky scroll navigation menu
 window.addEventListener('scroll', () => {
     const currentScroll = window.scrollY;
