@@ -3,3 +3,20 @@ It is made using HTML Tailwindcss and javascript.
 It is a single page website. 
 
 #### If you clone it or fork it, i would really appreciate if you mention me in your credits.
+
+### TO clone this project
+
+1. Git clone this repo
+```
+git clone https://github.com/zaid-hassan/portfolio.git
+```
+
+2. Change directory to portfolio 
+```
+cd portfolio
+```
+
+3. Install npm packages.
+```
+npm install
+```
