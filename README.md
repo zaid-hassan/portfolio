@@ -8,12 +8,12 @@ It is a single page website.
 
 1. Git clone this repo
 ```
-git clone https://github.com/zaid-hassan/portfolio.git
+git clone https://github.com/zaid-hassan.github.io.git
 ```
 
 2. Change directory to portfolio 
 ```
-cd portfolio
+cd zaid-hassan-github.io
 ```
 
 3. Install npm packages.
