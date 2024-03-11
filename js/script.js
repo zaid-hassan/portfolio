@@ -2,7 +2,6 @@ const btn = document.querySelector('#menu-button');
 const mobileNav = document.querySelector('#mobile-menu');
 const navigation = document.querySelector('#nav');
 const body = document.body;
-const toTop = document.querySelector('#to-top');
 let lastScroll = 0;
 
 
