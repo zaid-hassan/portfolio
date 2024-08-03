@@ -2,6 +2,7 @@ const btn = document.querySelector('#menu-button');
 const mobileNav = document.querySelector('#mobile-menu');
 const navigation = document.querySelector('#nav');
 const body = document.body;
+const mobileMenuItem = document.querySelectorAll('.mobile-menu-item');
 let lastScroll = 0;
 
 
@@ -22,6 +23,16 @@ window.addEventListener('scroll', () => {
     }
     lastScroll = currentScroll;
 })
+
+mobileMenuItem.forEach(item => {
+    item.addEventListener('click', () => {
+        btn.classList.toggle('open');
+        mobileNav.classList.toggle('flex');
+        mobileNav.classList.toggle('hidden');
+    })
+})
+
+
 
 // Hamburger Menu toggle animation section
 btn.addEventListener('click', () => {
