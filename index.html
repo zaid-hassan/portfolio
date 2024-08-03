@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=josh:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
+    <script>document.documentElement.classList.add('js')</script>
     <title>Zaid Hassan</title>
 </head>
 
@@ -82,9 +83,12 @@
                 class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-zinc-800 h-screen sm:w-auto sm:self-center left-0 right-0 drop-shadow-lg">
                 <a href="#" class="text-zinc-100 mobile-menu-item"><span class="text-zinc-400">I.</span>Home</a>
                 <a href="#about" class="text-zinc-100 mobile-menu-item"><span class="text-zinc-400">II.</span>About</a>
-                <a href="#project" class="text-zinc-100 mobile-menu-item"><span class="text-zinc-400">III.</span>Projects</a>
-                <a href="#contact" class="text-zinc-100 mobile-menu-item"><span class="text-zinc-400">IV.</span>Contact</a>
-                <a href="https://zaidhassan.hashnode.dev/" target="_blank" class="text-zinc-100 mobile-menu-item"><span class="text-zinc-400">V.</span>Blog</a>
+                <a href="#project" class="text-zinc-100 mobile-menu-item"><span
+                        class="text-zinc-400">III.</span>Projects</a>
+                <a href="#contact" class="text-zinc-100 mobile-menu-item"><span
+                        class="text-zinc-400">IV.</span>Contact</a>
+                <a href="https://zaidhassan.hashnode.dev/" target="_blank" class="text-zinc-100 mobile-menu-item"><span
+                        class="text-zinc-400">V.</span>Blog</a>
             </div>
         </div>
     </nav>
@@ -92,7 +96,7 @@
     <section id="hero">
         <!-- flex container -->
         <div
-            class="container flex flex-col justify-start items-start px-6 mx-auto mt-20 space-y-0 md:justify-center md:h-screen md:mt-10">
+            class="container flex flex-col justify-start items-start px-6 mx-auto mt-20 space-y-0 md:justify-center md:h-screen md:mt-10 delay-[100ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="300">
             <!-- greeting - first item-->
             <div class="py-1.5 md:py-3">
                 <h4
@@ -117,10 +121,10 @@
     <!-- About section -->
     <section id="about">
         <!-- flex container -->
-        <div class="flex container md:justify-center mx-auto mt-10 min-h-screen flex-col space-y-10">
+        <div class="flex container md:justify-center mx-auto mt-10 min-h-screen flex-col space-y-10 delay-[100ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="300">
             <div class="flex h-fit flex-col justify-center items-center md:flex-row space-y-10 md:space-y-0">
                 <!-- image -->
-                <div class="flex justify-center items-center md:mr-8 ">
+                <div class="flex justify-center items-center md:mr-8">
                     <img src="images/profile.jpg" alt=""
                         class="transition ease-in-out duration-150 w-72 hover:-translate-x-2 hover:-translate-y-4 md:max-w-xs rounded-xl">
                 </div>
@@ -322,7 +326,7 @@
     <section id="project">
         <!-- flex container -->
         <div
-            class="container flex flex-col mx-auto space-y-12 px-11 mt-10 justify-center items-center md:space-y-0  md:items-start min-h-screen">
+            class="container flex flex-col mx-auto space-y-12 px-11 mt-10 justify-center items-center md:space-y-0  md:items-start min-h-screen delay-[100ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0" data-taos-offset="300">
             <!-- My Projects -->
             <div class="flex flex-col space-y-12">
                 <h2 class="max-w-md text-zinc-200 text-3xl font-bold font-josh text-center md:text-left md:text-4xl">My
@@ -444,7 +448,7 @@
     <section id="contact">
         <!-- flex container -->
         <div
-            class="container mx-auto space-y-12 font-josh flex flex-col justify-center items-center px-11 my-10 min-h-screen">
+            class="container mx-auto space-y-12 font-josh flex flex-col justify-center items-center px-11 my-10 min-h-screen delay-[100ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="300">
             <!-- how to contact -->
             <div class="flex flex-col justify-center items-center space-y-12">
                 <h2 class="max-w-md text-3xl text-zinc-200 font-bold text-center md:text-4xl">
@@ -551,6 +555,7 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
 </body>
 
 </html>
