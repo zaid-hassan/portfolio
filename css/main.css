@@ -1486,6 +1486,10 @@ html {
     align-items: flex-end;
   }
 
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
   .md\:justify-center {
     justify-content: center;
   }
